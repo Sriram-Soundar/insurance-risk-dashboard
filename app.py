@@ -55,7 +55,7 @@ filtered_df = df[
 ]
 
 # KPIs
-st.title("🏠 Property Risk Analysis Dashboard")
+st.title("Property Risk Analysis Dashboard")
 col1, col2, col3, col4, col5 = st.columns(5)
 
 total_policies = len(filtered_df)
